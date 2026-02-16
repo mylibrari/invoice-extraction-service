@@ -6,9 +6,16 @@ Invoice Extraction App
 
 mit
 
+## Clone the Repository
+
+```bash
+git clone https://github.com/mylibrari/invoice-extraction-service.git
+cd invoice-extraction-service
+```
+
 installiation
 
-bench get-app https://github.com/waddah82/invoice_extraction_app
+bench get-app https://github.com/mylibrari/invoice-extraction-service
 
 source env/bin/activate
 
@@ -285,4 +292,3 @@ frappe.ui.form.on("Telegram Settings", {
     });
   }
 });
-
